@@ -1,0 +1,6 @@
+@mixin text-restrict($lines: 1) {
+  @apply overflow-hidden text-ellipsis break-words;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+}

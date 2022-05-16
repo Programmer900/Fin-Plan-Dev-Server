@@ -1,0 +1,123 @@
+@import '../../_vars/sizes';
+@import '../media';
+
+@mixin container-paddings {
+  &__container {
+    margin: auto;
+    padding-right: $container-pad-side--mobile;
+    padding-left: $container-pad-side--mobile;
+  }
+
+  @include respond-to($container-media--tablet) {
+    &__container {
+      padding-right: $container-pad-side--tablet;
+      padding-left: $container-pad-side--tablet;
+    }
+  }
+
+  @include respond-to($container-media--desktop) {
+    &__container {
+      padding-right: $container-pad-side--desktop;
+      padding-left: $container-pad-side--desktop;
+    }
+  }
+}
+
+@mixin container-paddings--left {
+  &__container {
+    padding-left: $container-pad-side--mobile;
+  }
+
+  @include respond-to($container-media--tablet) {
+    &__container {
+      padding-left: $container-pad-side--tablet;
+    }
+  }
+
+  @include respond-to($container-media--desktop) {
+    &__container {
+      padding-left: $container-pad-side--desktop;
+    }
+  }
+}
+
+@mixin container-paddings--right {
+  &__container {
+    padding-right: $container-pad-side--mobile;
+  }
+
+  @include respond-to($container-media--tablet) {
+    &__container {
+      padding-right: $container-pad-side--tablet;
+    }
+  }
+
+  @include respond-to($container-media--desktop) {
+    &__container {
+      padding-right: $container-pad-side--desktop;
+    }
+  }
+}
+
+@mixin wrap-pad {
+  padding-right: $container-pad-side--mobile;
+  padding-left: $container-pad-side--mobile;
+
+  @include respond-to($container-media--tablet) {
+    padding-right: $container-pad-side--tablet;
+    padding-left: $container-pad-side--tablet;
+  }
+
+  @include respond-to($container-media--desktop) {
+    padding-right: $container-pad-side--desktop;
+    padding-left: $container-pad-side--desktop;
+  }
+}
+
+@mixin wrap-pad--left {
+  padding-left: $container-pad-side--mobile;
+
+  @include respond-to($container-media--tablet) {
+    padding-left: $container-pad-side--tablet;
+  }
+
+  @include respond-to($container-media--desktop) {
+    padding-left: $container-pad-side--desktop;
+  }
+}
+
+@mixin wrap-pad--right {
+  padding-right: $container-pad-side--mobile;
+
+  @include respond-to($container-media--tablet) {
+    padding-right: $container-pad-side--tablet;
+  }
+
+  @include respond-to($container-media--desktop) {
+    padding-right: $container-pad-side--desktop;
+  }
+}
+
+@mixin wrap-mar--left {
+  margin-left: $container-pad-side--mobile;
+
+  @include respond-to($container-media--tablet) {
+    margin-left: $container-pad-side--tablet;
+  }
+
+  @include respond-to($container-media--desktop) {
+    margin-left: $container-pad-side--desktop;
+  }
+}
+
+@mixin wrap-mar--right {
+  margin-right: $container-pad-side--mobile;
+
+  @include respond-to($container-media--tablet) {
+    margin-right: $container-pad-side--tablet;
+  }
+
+  @include respond-to($container-media--desktop) {
+    margin-right: $container-pad-side--desktop;
+  }
+}

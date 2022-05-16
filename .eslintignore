@@ -1,0 +1,7 @@
+/dist/
+/coverage/
+/build/
+/node_modules/
+/static/
+auto-imports.d.ts
+components.d.ts

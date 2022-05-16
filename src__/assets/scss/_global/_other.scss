@@ -1,0 +1,57 @@
+@import '../_vars';
+
+html {
+  box-sizing: border-box !important;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit !important;
+}
+
+#app {
+  position: relative;
+  width: 100%;
+  font-family: Montserrat, sans-serif;
+}
+
+.stop-scrolling {
+  overflow: hidden;
+}
+
+.stop-scrolling-analysis {
+  overflow: hidden;
+}
+
+.absoluteCenter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1031;
+  width: 100%;
+  height: 2px;
+  background: #13d023;
+  opacity: 0.75;
+}
+
+//.container {
+//  position: relative;
+//  width: 100%;
+//  max-width: $container-max-width;
+//  margin: 0 auto;
+//  padding: 0 $container-padding-sides;
+//}

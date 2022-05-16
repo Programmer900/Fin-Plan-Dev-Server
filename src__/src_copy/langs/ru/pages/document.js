@@ -1,0 +1,16 @@
+export const documentPage = {
+  quotes: 'Котировка акции',
+  actives: 'Активы',
+  averageProfit: 'Средняя прибыль',
+  currentAssets: 'Текущие активы',
+  currentRevenue: 'Текущий доход',
+  equity: 'Капитал',
+  lastYearRevenue: 'Выручка за прошлый год',
+  profit: 'Прибыль',
+  quarterlyProfit: 'Прибыль квартальная',
+  quarterlyRevenue: 'Выручка квартальная',
+  returnOnEquity: 'Рентабельность собственного капитала',
+  shareOfEquityInAssets: 'Доля собственного капитала в активах',
+  yearSlidingProfit: 'Прибыль за год (скользящая)',
+  yearSlidingRevenue: 'Выручка за год (скользящая)',
+};

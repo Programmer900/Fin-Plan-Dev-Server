@@ -1,0 +1,185 @@
+.whiteBg {
+  background-color: white;
+}
+
+.greyBg {
+  background-color: #f7f7f7;
+}
+
+.defaultBlack27px {
+  > h1 {
+    font-weight: 500;
+    font-size: 27px;
+    font-style: normal;
+  }
+}
+
+.default-w-400 {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.default-w-500 {
+  font-weight: 500;
+  font-style: normal;
+}
+
+.default-w-bold {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.defaultGrey20px {
+  > p {
+    color: #797979;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 150%;
+  }
+}
+
+.VHtmlText {
+  > ul {
+    margin-left: 20px;
+    > li {
+      > p {
+        width: calc(100% - 20px);
+        padding: 10px 0 0 0;
+        overflow: hidden;
+      }
+
+      &::marker {
+        width: 20px;
+        height: 20px;
+        color: green;
+        font-size: 25px;
+      }
+    }
+  }
+}
+.flexWrapperColumn {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1920px;
+  padding: 50px 200px;
+}
+
+.flexWrapperRow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1920px;
+  padding: 50px 200px;
+}
+
+.flexRowCenter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexRowBetween {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tableValue {
+  > p {
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 150%;
+  }
+}
+
+.tableHeader {
+  > p {
+    color: #797979;
+    font-weight: 500;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 150%;
+  }
+}
+
+.mt-20 {
+  > p {
+    margin-top: 20px;
+  }
+}
+
+.default-ul {
+  > ul {
+    margin-top: 10px;
+    > li {
+      margin-top: 5px;
+      > p {
+        margin-top: -5px;
+        color: #797979;
+        font-weight: 400;
+        font-size: 20px;
+        font-style: normal;
+        line-height: 150%;
+      }
+    }
+  }
+}
+
+.default-h2 {
+  > h2 {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 27px;
+    font-style: normal;
+  }
+}
+
+@media (max-width: 1400px) {
+  .flexWrapperColumn {
+    padding: 35px 100px;
+  }
+
+  .flexWrapperRow {
+    padding: 35px 100px;
+  }
+
+  .tableHeader {
+    > p {
+      font-size: 14px;
+    }
+  }
+
+  .tableValue {
+    > p {
+      font-size: 14px;
+    }
+  }
+
+  .defaultGrey20px {
+    > p {
+      font-size: 16px;
+    }
+  }
+  .defaultBlack27px {
+    > h1 {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .flexWrapperColumn {
+    margin-left: 0;
+    padding: 35px 0;
+  }
+
+  .flexWrapperRow {
+    margin-left: 0;
+    padding: 35px 0;
+  }
+}

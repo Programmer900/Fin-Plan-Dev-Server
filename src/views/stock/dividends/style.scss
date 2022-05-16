@@ -1,0 +1,91 @@
+.flexWrapperColumn {
+  margin: auto;
+}
+
+.methodology {
+  > h1 {
+    margin-top: 20px;
+  }
+  > p {
+    width: 70%;
+    margin-top: 40px;
+  }
+}
+
+.table {
+  margin-top: 60px;
+  .tableHeader {
+    padding: 25px 20px;
+    background-color: white;
+
+    > p {
+      width: 18%;
+      margin: 0;
+    }
+  }
+
+  .current {
+    background-color: white;
+  }
+
+  .current:hover {
+    background-color: #fec006;
+  }
+
+  .current:hover .currentPrice {
+    opacity: 1;
+  }
+
+  .default {
+    background-color: #f4f4f4;
+  }
+
+  .default:hover {
+    background-color: white;
+  }
+
+  .tableRows {
+    width: 100%;
+    margin-top: 3px;
+    padding: 15px 20px;
+    cursor: pointer;
+
+    > p {
+      width: 18%;
+    }
+
+    .currentPrice {
+      position: absolute;
+      width: max-content;
+      margin-top: 80px;
+      padding: 10px 20px;
+      color: white;
+      font-size: 14px;
+      background-color: black;
+      border-radius: 20px;
+      opacity: 0;
+      transition: 0.3s;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .flexWrapperColumn {
+    padding: 0 20px;
+    .methodology {
+      > p {
+        width: 100%;
+      }
+    }
+    .table {
+      overflow-x: scroll;
+      .tableHeader {
+        width: 700px;
+      }
+
+      .tableRows {
+        width: 700px;
+      }
+    }
+  }
+}

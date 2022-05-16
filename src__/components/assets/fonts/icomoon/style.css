@@ -1,0 +1,158 @@
+@font-face {
+  font-weight: normal;
+  font-family: 'icomoon';
+  font-style: normal;
+  src: url('fonts/icomoon.eot?qjy858');
+  src: url('fonts/icomoon.eot?qjy858#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?qjy858') format('truetype'),
+    url('fonts/icomoon.woff?qjy858') format('woff'),
+    url('fonts/icomoon.svg?qjy858#icomoon') format('svg');
+  font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  font-weight: normal;
+
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon', sans-serif !important;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-transform: none;
+  speak: never;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-book::before {
+  content: '\e929';
+}
+.icon-download::before {
+  content: '\e92a';
+}
+.icon-lock::before {
+  content: '\e928';
+}
+.icon-camera::before {
+  content: '\e925';
+}
+.icon-check::before {
+  content: '\e926';
+}
+.icon-play_square::before {
+  content: '\e927';
+}
+.icon-maximize::before {
+  content: '\e91e';
+}
+.icon-minimize::before {
+  content: '\e91f';
+}
+.icon-pause::before {
+  content: '\e920';
+}
+.icon-volume-1::before {
+  content: '\e921';
+}
+.icon-volume-2::before {
+  content: '\e922';
+}
+.icon-volume-x::before {
+  content: '\e923';
+}
+.icon-volume::before {
+  content: '\e924';
+}
+.icon-search::before {
+  content: '\e91d';
+}
+.icon-dislike::before {
+  content: '\e918';
+}
+.icon-like::before {
+  content: '\e919';
+}
+.icon-medal::before {
+  content: '\e91a';
+}
+.icon-user2::before {
+  content: '\e91b';
+}
+.icon-reply::before {
+  content: '\e91c';
+}
+.icon-arr_rounded_down::before {
+  content: '\e910';
+}
+.icon-arr_rounded_left::before {
+  content: '\e911';
+}
+.icon-arr_rounded_right::before {
+  content: '\e912';
+}
+.icon-arr_rounded_up::before {
+  content: '\e913';
+}
+.icon-eye::before {
+  content: '\e914';
+}
+.icon-heart::before {
+  content: '\e915';
+}
+.icon-message::before {
+  content: '\e916';
+}
+.icon-user_arr_right::before {
+  content: '\e917';
+}
+.icon-file::before {
+  content: '\e90e';
+}
+.icon-planchette::before {
+  content: '\e90f';
+}
+.icon-play::before {
+  content: '\e90d';
+}
+.icon-fb::before {
+  content: '\e909';
+}
+.icon-inst::before {
+  content: '\e90a';
+}
+.icon-vk::before {
+  content: '\e90b';
+}
+.icon-yt::before {
+  content: '\e90c';
+}
+.icon-portfolio::before {
+  content: '\e906';
+}
+.icon-star::before {
+  content: '\e907';
+}
+.icon-user::before {
+  content: '\e908';
+}
+.icon-close::before {
+  content: '\e905';
+}
+.icon-logout::before {
+  content: '\e904';
+}
+.icon-arr_simple_down::before {
+  content: '\e900';
+}
+.icon-arr_simple_left::before {
+  content: '\e901';
+}
+.icon-arr_simple_right::before {
+  content: '\e902';
+}
+.icon-arr_simple_up::before {
+  content: '\e903';
+}

@@ -1,0 +1,66 @@
+@import '../../swiper-vars.scss';
+
+:root {
+  --swiper-navigation-size: 44px;
+
+  /*
+  --swiper-navigation-color: var(--swiper-theme-color);
+  */
+}
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+  cursor: pointer;
+  &.swiper-button-disabled {
+    cursor: auto;
+    opacity: 0.35;
+    pointer-events: none;
+  }
+  &::after {
+    font-size: var(--swiper-navigation-size);
+    font-family: 'swiper-icons', sans-serif;
+    font-variant: initial;
+    line-height: 1;
+    letter-spacing: 0;
+    text-transform: none !important;
+  }
+}
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+  &::after {
+    content: 'prev';
+  }
+
+  right: auto;
+  left: 10px;
+}
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+  &::after {
+    content: 'next';
+  }
+
+  right: 10px;
+  left: auto;
+}
+
+@each $navColorName, $navColorValue in $colors {
+  .swiper-button-prev,
+  .swiper-button-next {
+    &.swiper-button-#{'' + $navColorName} {
+      --swiper-navigation-color: #{'' + $navColorValue};
+    }
+  }
+}
+.swiper-button-lock {
+  display: none;
+}

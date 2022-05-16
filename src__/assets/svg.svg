@@ -1,0 +1,25 @@
+<svg viewBox="0 0 70 64.926" xmlns="http://www.w3.org/2000/svg" id="component_1_3"  data-name="Component 1 – 3" width="70" height="64.926">
+    <defs>
+        <radialGradient id="radial-gradient" cx="0.639" cy="0.339" r="0.5" gradientunits="objectBoundingBox">
+            <stop offset="0" stop-color="#2f9637"/>
+            <stop offset="1" stop-color="#298034"/>
+        </radialGradient>
+        <radialGradient id="radial-gradient-2" cx="0.699" cy="0.211" r="0.5" gradientunits="objectBoundingBox">
+            <stop offset="0" stop-color="#1c5828"/>
+            <stop offset="1" stop-color="#184821"/>
+        </radialGradient>
+        <radialGradient id="radial-gradient-3" cx="0.825" cy="0.37" r="1.009" gradientunits="objectBoundingBox">
+            <stop offset="0" stop-color="#2f9637"/>
+            <stop offset="0.521" stop-color="#2c8a35"/>
+            <stop offset="1" stop-color="#298034"/>
+        </radialGradient>
+        <radialGradient id="radial-gradient-4" cx="0.964" cy="0.311" r="0.561" gradienttransform="translate(-0.19) scale(1.38 1)" gradientunits="objectBoundingBox">
+            <stop offset="0" stop-color="#ffe815"/>
+            <stop offset="1" stop-color="#ffb000"/>
+        </radialGradient>
+    </defs>
+    <ellipse id="ellipse_1" cx="32.349" cy="32.463" rx="32.349" ry="32.463" transform="translate(5.303)" fill="url(#radial-gradient)"/>
+    <ellipse id="ellipse_2" cx="22.286" cy="20.823" rx="22.286" ry="20.823" transform="translate(15.073 11.64)" fill="url(#radial-gradient-2)"/>
+    <circle id="ellipse_3" cx="10.248" cy="10.248" r="10.248" transform="translate(27.245 22.215)" fill="url(#radial-gradient-3)"/>
+    <path id="contour_1" d="M220.435,161.855l-22.081-17.48c-5.574-4.412-14.057-.664-14.057,6.211v34.961c0,6.875,8.483,10.623,14.057,6.211l22.081-17.48A7.824,7.824,0,0,0,220.435,161.855Z" transform="translate(-184.297 -135.603)" fill="url(#radial-gradient-4)"/>
+</svg>

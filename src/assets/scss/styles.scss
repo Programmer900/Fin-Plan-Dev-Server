@@ -1,0 +1,133 @@
+@import '_vendor/normalize';
+@import '_global';
+@import '_vendor/swiper';
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.form-element.active input:not([type=submit]), .form-element.active textarea, .form-element.notempty input:not([type=submit]), .form-element.notempty textarea, input:not([type=submit]):focus, input:not([type=submit]):hover, textarea:focus, textarea:hover {
+  border-color: #fec006;
+}
+
+input:not([type=submit]) {
+  padding-top: 0;
+  height: 65px;
+}
+
+input:not([type=submit]), textarea {
+  border: 1px solid #f7f7f7;
+  border-radius: 0;
+  background: #f7f7f7;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  font-family: Montserrat,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  transition: .3s;
+}
+
+.calculator-iis #calc-iis .detail_by_years .checkbox__inner span {
+  position: static;
+  display: block;
+}
+.checkbox__inner .dot, .radio__inner .dot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  border: 2px solid #e2e2e2;
+  background: #fff;
+  width: 32px;
+  height: 32px;
+}
+
+.calculator-iis #calc-iis .detail_by_years .checkbox__inner span:before {
+  width: 20px;
+  height: 20px;
+}
+
+.checkbox__inner, .radio__inner {
+  display: inline-block;
+  position: relative;
+  z-index: 9;
+  cursor: pointer;
+}
+
+.checkbox__inner .dot:before, .radio__inner .dot:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background: #008940;
+  opacity: 0;
+  width: 16px;
+  height: 16px;
+  transition: .3s;
+}
+
+input:checked+.checkbox__inner .dot:before, input:checked+.radio__inner .dot:before {
+  opacity: 1;
+}
+
+.form_element {
+  position: relative;
+}
+
+.placeholder {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 10;
+  padding: 0 20px;
+  max-width: 100%;
+  font-size: 16px;
+  color: #797979;
+  transform: translateY(-50%);
+  transition: all .15s;
+}
+.form_element .placeholder {
+  position: absolute;
+  top: 13px;
+  text-align: center;
+  opacity: 0;
+  font-size: 10px;
+  color: #757575;
+  transition: opacity .3s;
+}
+
+.coupons_modal_result {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #c9caca;
+}
+
+.form_element.active .placeholder {
+  opacity: 1;
+}
+
+.center-text, .text-center {
+  text-align: center;
+}
+
+input:not([type=submit])::-webkit-input-placeholder,
+input:not([type=submit]):-ms-input-placeholder,
+input:not([type=submit])::-moz-placeholder,
+input:not([type=submit]):-moz-placeholder {
+  font-family: "Montserrat", helvetica, verdana, arial, sans-serif
+}
+
+
+

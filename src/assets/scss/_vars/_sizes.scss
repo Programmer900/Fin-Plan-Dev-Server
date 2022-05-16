@@ -1,0 +1,22 @@
+// ----- START CONTAINER -----
+$container-padding-sides: 12px;
+$container-pad-side--mobile: 14px;
+$container-pad-side--tablet: 100px;
+$container-pad-side--desktop: 200px;
+$container-max-width: 1300px + $container-padding-sides * 2;
+
+// Media
+$container-media--tablet: 600;
+$container-media--big-tablet: 800;
+$container-media--1100: 1100;
+$container-media--desktop: 1400;
+
+// ----- END CONTAINER -----
+
+// ----- START PAGE ANALYSIS -----
+$media-min-page-analysis--tablet: 600;
+$media-min-page-analysis--big-tablet: 800;
+$media-min-page-analysis--desktop: 1400;
+$page-analysis-pad-side--tablet: 100px;
+$page-analysis-pad-side--desktop: 200px;
+// ----- END PAGE ANALYSIS -----
